@@ -21,4 +21,14 @@ public class MainNovice {
         }
     }
 
+    public static boolean greaterZero(int a){
+        if(a > 0){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public static int square;
+
 }
