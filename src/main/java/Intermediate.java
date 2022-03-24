@@ -40,13 +40,4 @@ public class Intermediate {
     }
 
 
-   /* public static String printModifiedNumber(int number) {
-        if (number % 3 == 0) {
-            System.out.println("#" + number);
-        } else if (number % 5 == 0) {
-            System.out.println("$" + number);
-        } else {
-            System.out.println(number);
-        }
-*/
     }
