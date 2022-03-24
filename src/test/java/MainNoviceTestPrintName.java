@@ -13,11 +13,17 @@ class MainNoviceTestPrintName {
  */
 
     @Test
-    void greaterZero_ifgreater0_shouldTrue(){
+    void greaterZero_ifgreater0_shouldTrue() {
         assertTrue(MainNovice.greaterZero(1));
     }
+
     @Test
-    void greaterZero_if0_shouldFalse(){
+    void greaterZero_if0_shouldFalse() {
         assertFalse(MainNovice.greaterZero(0));
     }
+    @Test
+    void squareNumber(){
+        assertEquals(9, MainNovice.squareNumber(3));
+    }
+
 }

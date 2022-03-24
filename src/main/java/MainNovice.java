@@ -1,9 +1,12 @@
+import java.util.Scanner;
+
 public class MainNovice {
     public static void main(String[] args) {
 
         String name = "Maria";
         //printName(name);
         loopName5x(name);
+        greetName();
 
     }
     /*
@@ -29,6 +32,15 @@ public class MainNovice {
         }
     }
 
-    public static int square;
+    public static int squareNumber(int number){
+        return number * number;
+    }
+
+    public static void greetName(){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Hello! Please insert your name.");
+        String name = scan.nextLine();
+        System.out.println("Hello " + name + "!");
+    }
 
 }
