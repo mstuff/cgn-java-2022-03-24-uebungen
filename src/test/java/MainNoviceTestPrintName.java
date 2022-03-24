@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+/*
 class MainNoviceTestPrintName {
 
     @Test
@@ -9,3 +9,5 @@ class MainNoviceTestPrintName {
         assertEquals("Maria", MainNovice.printName("Maria"));
     }
 }
+
+ */
