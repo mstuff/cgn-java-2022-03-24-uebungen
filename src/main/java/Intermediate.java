@@ -9,8 +9,8 @@ public class Intermediate {
     }
 
 
-    public static String[] arrayOfNumbers = {"eins", "zwei", "drei", "vier", "fünf",
-            "sechs", "sieben", "acht", "neun", "zehn"};
+    public static String[] arrayOfNumbers = {"one", "two", "three", "four", "five",
+            "six", "Seven", "eight", "nine", "ten"};
 
     public static void giveNumberName() {
         for (int i = 0; i < arrayOfNumbers.length; i++) {
