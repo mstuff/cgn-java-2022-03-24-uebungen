@@ -14,7 +14,7 @@ public class Intermediate2 {
         while (runAgain){
             System.out.println("\nThis is what you typed so far: \n");
             printArrayList(arrayListForUserWords);
-            String userInput = returnStringFromUserPrompt(userPromptInput);
+            String userInput = returnStringAfterUserPrompt(userPromptInput);
             arrayListForUserWords.add(userInput);
             runAgain = continueWhenUserEntersY(userPromptToContinue);
         }
@@ -31,7 +31,7 @@ public class Intermediate2 {
         }
     }
 
-    public static String returnStringFromUserPrompt(String userPrompt){
+    public static String returnStringAfterUserPrompt(String userPrompt){
         System.out.println(userPrompt);
         return readUserInput();
     }
@@ -42,7 +42,7 @@ public class Intermediate2 {
     }
 
     public static boolean continueWhenUserEntersY(String userPrompt){
-        String userInput = returnStringFromUserPrompt(userPrompt);
+        String userInput = returnStringAfterUserPrompt(userPrompt);
         if (userInput.equals("y")){
             return true;
         } else {
